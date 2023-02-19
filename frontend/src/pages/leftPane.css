@@ -1,0 +1,308 @@
+.sidePane{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+.leftPane{
+    width: 20%;
+    height: 100%;
+    background-color: #1E2834;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightPane{
+    width: 80%;
+    min-height: 100%;
+}
+
+.nonindexrightPane{
+    width: 40%;
+    min-height: 100%;
+}
+.centerPane{
+    background-color: #191D28;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    min-height: 100%;
+}
+.structure{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.swap{
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), linear-gradient(97.78deg, #018D7B -4.83%, #0D7C8D 53.32%, #0082BE 105.71%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    min-width: 11.25rem;
+    margin: 4rem;
+    min-height: 9.375rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.ion-page{
+    background-color: #1D2230;
+}
+
+.stuff{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.stuffandar{
+    background: #1C2835;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 2px solid #0082BE;
+    margin: 1rem;
+    height: 8.5rem;
+    width: 15rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    align-items: center;
+    text-align: center;  
+    color: white  /* border-image: linear-gradient(#018D7B,#007EB9) 27; */
+}
+
+.stuffandar-balance{
+    background: #1C2835;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 2px solid #0082BE;
+    margin: 1rem;
+    height: 8.5rem;
+    width: 19.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    align-items: center;
+    text-align: center;  
+    color: white  /* border-image: linear-gradient(#018D7B,#007EB9) 27; */
+}
+
+
+.wallet1{
+    background-color: #253140;
+    border: 0.25px solid;
+    border-color: #FFFFFF;
+    height: 2.5rem;
+    width: 15.3rem;
+    float: right;
+    font-size: 2.5rem;
+    align-self: center;
+    color: #FFFFFF;
+    margin: 3rem;
+    display: flex;
+}
+
+.wallet2{
+    background-color: #253140;
+    border: 0.5px solid;
+    border-image: linear-gradient(#018D7B,#007EB9) 50;   
+    width: 18.3rem;
+    float: right;
+    font-size: 3rem;
+    align-self: center;
+    color: #FFFFFF;
+    margin: 3rem;
+    display: flex;
+    position:absolute;
+    top: 35rem;
+    left: 25rem;
+    height: 3.5rem;
+}
+
+.wallet1:hover{
+    background-color: #1C2835;
+    border: 2px solid;
+    border-color: #FFFFFF;
+}
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.75rem;
+    color: rgba(256, 256, 256, 0.6);
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+}
+
+.metamask{
+    font-size: 1.2rem;
+}
+
+.stuffval{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin:1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.swapdiv{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2834;
+    border-radius: 1.5rem;
+    height: 23.1875rem;
+    width:27.5rem;
+    margin: auto;
+}
+
+.swapbutton{
+    margin-top: 2rem;
+    width: 22.25rem;
+    height: 4rem; 
+   font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    background:  linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), linear-gradient(97.78deg, #018D7B -4.83%, #0D7C8D 53.32%, #0082BE 105.71%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 9rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    width: 22.25rem;
+    height: 4rem;
+    background: #253140;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.dropdown input{
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    font-family: 'Roboto';
+    font-style: normal;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.1875rem;    
+    margin-left: auto;
+}
+
+.dropdown input:active{
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    font-family: 'Roboto';
+    font-style: normal;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.1875rem;    
+}
+
+.ethval{
+    display: flex;
+    width:13.5rem;
+}
+
+option{
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(4, 138, 127, 0.5);
+    border-radius: 4px;   
+
+}
+
+select-selected{
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(4, 138, 127, 0.5);
+    border-radius: 4px; 
+    color: white 
+   
+
+}
+
+.centerstuff{
+    margin:auto;
+}
+
+.ethdropdown{
+    align-self: center;
+}
+
+.logo{
+    max-width: 100rem;
+    margin:2rem;
+}
+
+.onboarding{
+    background-image: url("../assets/onboarding.svg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
